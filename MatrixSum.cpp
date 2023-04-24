@@ -9,6 +9,7 @@ int MatrixSum(int(*matrix)[N]) {
 			if (i <= j)
 			{
 				sumMatrix += matrix[i][j];
+				
 			}
 		}
 	}
