@@ -5,7 +5,7 @@ int MatrixGeneration(int(*matrix)[N]) {
 	{
 		for (int j = 0; j < N; j++)
 		{
-			matrix[i][j] = rand() % 27 - 13;
+			matrix[i][j] = rand() % 9 - 20;
 			cout << setw(4) << matrix[i][j];
 		}
 		cout << '\n';
